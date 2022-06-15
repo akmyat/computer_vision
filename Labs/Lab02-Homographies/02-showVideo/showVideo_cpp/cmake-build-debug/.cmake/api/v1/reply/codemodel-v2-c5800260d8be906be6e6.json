@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "showVideo_cpp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "showVideo_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-showVideo_cpp-Debug-d3256ab13e63f0b5f22c.json",
+					"name" : "showVideo_cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab02-Homographies/02-showVideo/showVideo_cpp/cmake-build-debug",
+		"source" : "/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab02-Homographies/02-showVideo/showVideo_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
