@@ -1,0 +1,23 @@
+/home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/ninja/linux/ninja -G Ninja -S /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/readVideo/readVideo_cpp -B /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/readVideo/readVideo_cpp/cmake-build-debug
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda (found suitable exact version "11.7") 
+-- Found OpenCV: /usr/local/opencv-4.5.5 (found suitable version "4.5.5", minimum required is "4.5.5") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/readVideo/readVideo_cpp/cmake-build-debug
