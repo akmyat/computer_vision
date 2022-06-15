@@ -1,0 +1,3 @@
+/mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/testPointLiesOnLine/cmake-build-debug/CMakeFiles/testPointLiesOnLine.dir
+/mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/testPointLiesOnLine/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/testPointLiesOnLine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
