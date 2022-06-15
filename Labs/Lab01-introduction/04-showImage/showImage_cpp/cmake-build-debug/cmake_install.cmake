@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/showImage
+# Install script for directory: /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/04-showImage/showImage_cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/showImage/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/04-showImage/showImage_cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
