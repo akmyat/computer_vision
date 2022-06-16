@@ -1,0 +1,17 @@
+# ninja log v5
+2159	2844	1655338395524616500	displayVideoWithInfo_cpp	6ea13e0b5cb07dc3
+2	2158	1655338394841078800	CMakeFiles/displayVideoWithInfo_cpp.dir/main.cpp.o	50bc11a9f2732e9e
+1	1869	1655338485604530200	CMakeFiles/displayVideoWithInfo_cpp.dir/main.cpp.o	50bc11a9f2732e9e
+1870	2531	1655338486258752300	displayVideoWithInfo_cpp	6ea13e0b5cb07dc3
+1	2488	1655338505953469100	CMakeFiles/displayVideoWithInfo_cpp.dir/main.cpp.o	50bc11a9f2732e9e
+2489	3155	1655338506616650400	displayVideoWithInfo_cpp	6ea13e0b5cb07dc3
+2	2456	1655338704488538800	CMakeFiles/displayVideoWithInfo_cpp.dir/main.cpp.o	50bc11a9f2732e9e
+2458	3156	1655338705182988600	displayVideoWithInfo_cpp	6ea13e0b5cb07dc3
+1	1942	1655338775267942500	CMakeFiles/displayVideoWithInfo_cpp.dir/main.cpp.o	50bc11a9f2732e9e
+1944	2583	1655338775905361300	displayVideoWithInfo_cpp	6ea13e0b5cb07dc3
+1	1960	1655338801461335900	CMakeFiles/displayVideoWithInfo_cpp.dir/main.cpp.o	50bc11a9f2732e9e
+1961	2620	1655338802114929200	displayVideoWithInfo_cpp	6ea13e0b5cb07dc3
+1	1899	1655338967044218100	CMakeFiles/displayVideoWithInfo_cpp.dir/main.cpp.o	50bc11a9f2732e9e
+1899	2524	1655338967664973300	displayVideoWithInfo_cpp	6ea13e0b5cb07dc3
+2	1927	1655338996015708800	CMakeFiles/displayVideoWithInfo_cpp.dir/main.cpp.o	50bc11a9f2732e9e
+1928	2592	1655338996677459900	displayVideoWithInfo_cpp	6ea13e0b5cb07dc3
