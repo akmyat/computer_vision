@@ -1,0 +1,31 @@
+%YAML:1.0
+---
+aPoints0: !!opencv-matrix
+   rows: 2
+   cols: 1
+   dt: f
+   data: [ 649., 609. ]
+aPoints1: !!opencv-matrix
+   rows: 2
+   cols: 1
+   dt: f
+   data: [ 1016., 639. ]
+aPoints2: !!opencv-matrix
+   rows: 2
+   cols: 1
+   dt: f
+   data: [ 931., 879. ]
+aPoints3: !!opencv-matrix
+   rows: 2
+   cols: 1
+   dt: f
+   data: [ 352., 779. ]
+matH: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ -5.8378519452066091e-01, -1.0199070751331543e+00, 1000.,
+       -5.8378519452066091e-01, -1.0199070751331543e+00, 1000.,
+       -5.8378519452066105e-04, -1.0199070751331541e-03, 1. ]
+widthOut: 1920.
+heightOut: 1080.
