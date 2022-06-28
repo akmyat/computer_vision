@@ -1,3 +1,3 @@
-/mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug/CMakeFiles/opticalFlowLucasKanade.dir
-/mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug/CMakeFiles/opticalFlowLucasKanade.dir
+/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

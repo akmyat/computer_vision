@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug/
+cmake_ninja_workdir = /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target opticalFlowLucasKanade
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlow
 
 build cmake_object_order_depends_target_opticalFlowLucasKanade: phony || CMakeFiles/opticalFlowLucasKanade.dir
 
-build CMakeFiles/opticalFlowLucasKanade.dir/main.cpp.o: CXX_COMPILER__opticalFlowLucasKanade_Debug /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/main.cpp || cmake_object_order_depends_target_opticalFlowLucasKanade
+build CMakeFiles/opticalFlowLucasKanade.dir/main.cpp.o: CXX_COMPILER__opticalFlowLucasKanade_Debug /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/main.cpp || cmake_object_order_depends_target_opticalFlowLucasKanade
   DEP_FILE = CMakeFiles/opticalFlowLucasKanade.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++14
   INCLUDES = -isystem /usr/local/opencv-4.5.5/include/opencv4
@@ -81,7 +81,7 @@ build opticalFlowLucasKanade: CXX_EXECUTABLE_LINKER__opticalFlowLucasKanade_Debu
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug && /home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/ccmake -S/mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp -B/mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug
+  COMMAND = cd /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug && /home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/ccmake -S/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp -B/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -93,7 +93,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug && /home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/cmake --regenerate-during-build -S/mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp -B/mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug
+  COMMAND = cd /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug && /home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/cmake --regenerate-during-build -S/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp -B/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -109,7 +109,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug
+# Folder: /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug
 
 build all: phony opticalFlowLucasKanade
 

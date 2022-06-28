@@ -1,4 +1,4 @@
-/home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/ninja/linux/ninja -G Ninja -S /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp -B /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug
+/home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/ninja/linux/ninja -G Ninja -S /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp -B /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
@@ -20,4 +20,4 @@
 -- Found OpenCV: /usr/local/opencv-4.5.5 (found suitable version "4.5.5", minimum required is "4.5.5") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/ntfs/Data/code/CV/Labs/Lab01-introduction/opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug
+-- Build files have been written to: /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab01-introduction/06-opticalFlowLucasKanade/opticalFlowLucasKanade_cpp/cmake-build-debug
