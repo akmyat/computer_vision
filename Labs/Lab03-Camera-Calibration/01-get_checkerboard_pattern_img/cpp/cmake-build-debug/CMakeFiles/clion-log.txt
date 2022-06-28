@@ -1,0 +1,11 @@
+/home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/ninja/linux/ninja -G Ninja -S /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab03-Camera-Calibration/01-get_checkerboard_pattern_img/cpp -B /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab03-Camera-Calibration/01-get_checkerboard_pattern_img/cpp/cmake-build-debug
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda (found suitable exact version "11.7") 
+-- Found OpenCV: /usr/local/opencv-4.5.5 (found suitable version "4.5.5", minimum required is "4.5.5") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab03-Camera-Calibration/01-get_checkerboard_pattern_img/cpp/cmake-build-debug
