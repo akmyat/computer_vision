@@ -10,7 +10,7 @@ class CameraCalibration:
     translation_vectors = None
 
     # Define the dimensions of checkerboard
-    __CHECKERBOARD = (8, 11)
+    __CHECKERBOARD = (6, 9)
     __criteria = (cv.TERM_CRITERIA_EPS + cv.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 
     # Create vector to store vectors of 3D points for each checkerboard image
@@ -47,7 +47,7 @@ class CameraCalibration:
                 self.__obj_points.append(self.__obj_point)
 
                 # Refining pixel coordinates for given 2D points.
-                corners2 = cv.cornerSubPix(self.__gray, corners, (11, 11), (-1, -1), self.__criteria)
+                corners2 = cv.cornerSubPix(self.__gray, corners, (9, 9), (-1, -1), self.__criteria)
 
                 self.__img_points.append(corners2)
 

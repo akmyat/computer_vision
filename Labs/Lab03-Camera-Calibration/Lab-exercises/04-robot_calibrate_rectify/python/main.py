@@ -1,16 +1,73 @@
-# This is a sample Python script.
+import sys
+import cv2 as cv
+from calibrate_camera import CameraCalibration
+from homography import Homography
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+PATH = "../../../../Data/Lab03/robot/"
+VIDEO_FILE = "robot.mp4"
 
+# Calibrate the camera
+camera_calibration = CameraCalibration()
+camera_calibration.calibrate(PATH + "images/")
+camera_calibration.write_calibration_file("camera_calibration.yml")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+print("Camera matrix: ", camera_calibration.camera_mtx)
+print("Distortion coefficient: ", camera_calibration.distortion_coefficient)
+print("Rotation vectors: ", camera_calibration.rotation_vectors)
+print("Translation vectors: ", camera_calibration.translation_vectors)
 
+# Calculate homography
+homography_data = Homography()
+homography_data.calculate(PATH + VIDEO_FILE)
+homography_data.write("homography.yml")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+print("Estimated Homography matrix: \n", homography_data.mat_h)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Show undistorted and rectify images
+video_capture = cv.VideoCapture(PATH + VIDEO_FILE)
+if not video_capture.isOpened():
+    print("ERROR! Unable to open video file ", VIDEO_FILE)
+    sys.exit()
+width = video_capture.get(cv.CAP_PROP_FRAME_WIDTH)
+height = video_capture.get(cv.CAP_PROP_FRAME_HEIGHT)
+ratio = 600.0 / width
+dim = (int(width * ratio), int(height * ratio))
+
+duration = 0
+while True:
+    _, frame = video_capture.read()
+    if frame is None:
+        break
+
+    # Undistorted and Cropped the frame
+    h, w = frame.shape[:2]
+    new_camera_mtx, roi = cv.getOptimalNewCameraMatrix(camera_calibration.camera_mtx,
+                                                       camera_calibration.distortion_coefficient,
+                                                       (w, h), 1, (w, h))
+    undistorted_frame = cv.undistort(frame, camera_calibration.camera_mtx,
+                                     camera_calibration.distortion_coefficient)
+    x, y, w, h = roi
+    cropped_undistorted_frame = undistorted_frame[y:y+h, x:x+w]
+
+    # Show the original and undistorted frames
+    cv.namedWindow("Original Frame", cv.WINDOW_NORMAL | cv.WINDOW_KEEPRATIO | cv.WINDOW_GUI_EXPANDED)
+    cv.imshow("Original Frame", frame)
+    cv.namedWindow("Undistorted Frame", cv.WINDOW_NORMAL | cv.WINDOW_KEEPRATIO | cv.WINDOW_GUI_EXPANDED)
+    cv.imshow("Undistorted Frame", cropped_undistorted_frame)
+
+    # Show the rectified original and undistorted frames
+    result_original = cv.warpPerspective(frame, homography_data.mat_h,
+                                         (int(homography_data.width_out), int(homography_data.height_out)),
+                                         cv.INTER_LINEAR)
+    result_undistorted = cv.warpPerspective(cropped_undistorted_frame, homography_data.mat_h,
+                                            (int(homography_data.width_out), int(homography_data.height_out)),
+                                            cv.INTER_LINEAR)
+    cv.namedWindow("Rectify Original", cv.WINDOW_NORMAL | cv.WINDOW_KEEPRATIO | cv.WINDOW_GUI_EXPANDED)
+    cv.imshow("Rectify Original", result_original)
+    cv.namedWindow("Rectify Undistorted", cv.WINDOW_NORMAL | cv.WINDOW_KEEPRATIO | cv.WINDOW_GUI_EXPANDED)
+    cv.imshow("Rectify Undistorted", result_undistorted)
+
+    cv.waitKey(duration)
+    if duration == 0:
+        duration = 30
+cv.destroyAllWindows()
