@@ -55,7 +55,7 @@ class CameraCalibration:
                 self.__img = cv.drawChessboardCorners(self.__img, self.__CHECKERBOARD, corners2, True)
 
             cv.imshow('img', self.__img)
-            cv.waitKey(0)
+            cv.waitKey(30)
         cv.destroyAllWindows()
 
         # Calibrate the camera
