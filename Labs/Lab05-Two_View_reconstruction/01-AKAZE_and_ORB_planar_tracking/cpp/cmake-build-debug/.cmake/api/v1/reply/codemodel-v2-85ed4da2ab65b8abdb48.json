@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp-Debug-f3171d1d01e1c070fe80.json",
+					"name" : "cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab05-Two_View_reconstruction/01-AKAZE_and_ORB_planar_tracking/cpp/cmake-build-debug",
+		"source" : "/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab05-Two_View_reconstruction/01-AKAZE_and_ORB_planar_tracking/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
