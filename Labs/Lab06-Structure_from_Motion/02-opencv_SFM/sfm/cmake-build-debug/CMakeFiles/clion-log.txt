@@ -1,0 +1,14 @@
+/home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/aung/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/ninja/linux/ninja -G Ninja -S /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab06-Structure_from_Motion/02-opencv_SFM/sfm -B /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab06-Structure_from_Motion/02-opencv_SFM/sfm/cmake-build-debug
+-- Found installed version of Eigen: /usr/local/share/eigen3/cmake
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/local/include/eigen3
+-- Found installed version of glog: /usr/local/lib/cmake/glog
+-- Detected glog version: 0.6.0
+-- Found required Ceres dependency: glog
+-- Found installed version of gflags: /usr/local/lib/cmake/gflags
+-- Detected gflags version: 2.2.2
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 1.14.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+-- opencv_coreopencv_calib3dopencv_features2dopencv_sfmopencv_vizMVS
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab06-Structure_from_Motion/02-opencv_SFM/sfm/cmake-build-debug

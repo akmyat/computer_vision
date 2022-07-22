@@ -1,0 +1,3 @@
+/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab06-Structure_from_Motion/02-opencv_SFM/sfm/cmake-build-debug/CMakeFiles/sfm.dir
+/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab06-Structure_from_Motion/02-opencv_SFM/sfm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/ntfs/Data/code/CV/computer_vision/Labs/Lab06-Structure_from_Motion/02-opencv_SFM/sfm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
